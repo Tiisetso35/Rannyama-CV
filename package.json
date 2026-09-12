@@ -2,6 +2,7 @@
   "name": "cv-portfolio",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://tiisetso35.github.io/Rannyama-CV",
   "dependencies": {
     "react": "^19.3.0",
     "react-dom": "^19.3.0",

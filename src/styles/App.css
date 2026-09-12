@@ -486,7 +486,7 @@ footer {
     align-items: center;
   }
 
-  /* Make buttons easier to use on phones */
+  /* Make buttons easier to use on phones*/ 
   .controls button,
   .download-btn {
     width: 220px;
