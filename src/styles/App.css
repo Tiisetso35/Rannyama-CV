@@ -1,6 +1,4 @@
-/* ==================================================
-   GLOBAL STYLES
-================================================== */
+/* GLOBAL STYLES */
 
 * {
   margin: 0;
@@ -27,10 +25,7 @@ img {
 }
 
 
-/* ==================================================
-   OLD HEADER STYLES
-   Kept for compatibility if .header is used later
-================================================== */
+/* HEADER STYLES */
 
 .header {
   background: linear-gradient(135deg, #0d6efd, #4dabf7);
@@ -49,9 +44,9 @@ img {
 }
 
 
-/* ==================================================
-   NAVIGATION BAR
-================================================== */
+/* 
+ NAVIGATION BAR 
+*/
 
 .navbar {
   display: flex;
@@ -81,9 +76,9 @@ img {
 }
 
 
-/* ==================================================
-   HERO SECTION
-================================================== */
+/*   
+HERO SECTION 
+*/
 
 .hero {
   display: flex;
@@ -136,16 +131,16 @@ img {
   transition: 0.3s;
 }
 
-/* Social icon hover effect */
+/* Social icon  */
 .socials a:hover {
   color: #ffd43b;
   transform: translateY(-3px);
 }
 
 
-/* ==================================================
-   CONTROL BUTTONS
-================================================== */
+/*  
+CONTROL BUTTONS
+*/
 
 .controls {
   display: flex;
@@ -177,9 +172,9 @@ img {
 }
 
 
-/* ==================================================
-   GENERAL SECTIONS
-================================================== */
+/*
+  GENERAL SECTIONS 
+  */
 
 section {
   width: 90%;
@@ -192,7 +187,7 @@ section {
   transition: 0.3s;
 }
 
-/* Slight movement when the user hovers over a section */
+/* movement when the user hovers over a section */
 section:hover {
   transform: translateY(-5px);
 }
@@ -216,11 +211,11 @@ h2::after {
 }
 
 
-/* ==================================================
-   SKILLS
-================================================== */
+/* 
+SKILLS 
+*/
 
-/* Arrange skill cards in a responsive grid */
+/*  skill cards in a responsive grid */
 .skill-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
@@ -244,9 +239,9 @@ h2::after {
 }
 
 
-/* ==================================================
-   EXPERIENCE
-================================================== */
+/*
+ EXPERIENCE
+  */
 
 /* Experience card */
 .experience-card {
@@ -275,9 +270,9 @@ h2::after {
 }
 
 
-/* ==================================================
+/* 
    PROJECTS
-================================================== */
+ */
 
 /* Project cards layout */
 .project-grid {
@@ -306,9 +301,9 @@ h2::after {
 }
 
 
-/* ==================================================
+/*
    PROJECT TECHNOLOGIES
-================================================== */
+*/
 
 .tech-list {
   margin-top: 15px;
@@ -326,9 +321,9 @@ h2::after {
 }
 
 
-/* ==================================================
+/* 
    REFERENCES
-================================================== */
+*/
 
 /* Reference cards layout */
 .reference-grid {
@@ -353,9 +348,9 @@ h2::after {
 }
 
 
-/* ==================================================
+/* 
    CONTACT
-================================================== */
+ */
 
 #contact p {
   margin: 12px 0;
@@ -380,9 +375,9 @@ h2::after {
 }
 
 
-/* ==================================================
+/* 
    FOOTER
-================================================== */
+ */
 
 footer {
   margin-top: 40px;
@@ -393,9 +388,9 @@ footer {
 }
 
 
-/* ==================================================
+/* 
    DARK MODE
-================================================== */
+ */
 
 /* Main dark-mode background */
 .app.dark {
@@ -444,10 +439,9 @@ footer {
 }
 
 
-/* ==================================================
+/* 
    RESPONSIVE DESIGN
-   Applies to tablets and mobile phones
-================================================== */
+ */
 
 @media (max-width: 768px) {
 
